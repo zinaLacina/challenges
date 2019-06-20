@@ -1,0 +1,21 @@
+#ignore the ignore file
+.DS_Store
+/queue/.gradle
+/queue/build/
+
+# Ignore Gradle GUI config
+/queue/gradle-app.setting
+
+# Avoid ignoring Gradle wrapper jar file (.jar files are usually ignored)
+!/queue/gradle-wrapper.jar
+
+# Cache of project
+/queue/.gradletasknamecache
+
+# # Work around https://youtrack.jetbrains.com/issue/IDEA-116898
+# gradle/wrapper/gradle-wrapper.properties
+
+# IDEA
+# ----
+!/queue/.idea
+/queue/.idea/*
