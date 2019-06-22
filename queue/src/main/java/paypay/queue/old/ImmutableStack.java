@@ -1,4 +1,4 @@
-package paypay.queue;
+package paypay.queue.old;
 
 public final class ImmutableStack<T> {
     /*

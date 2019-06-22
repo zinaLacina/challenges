@@ -2,7 +2,7 @@ package paypay.queue;
 
 
 /**
- * Represents the interface for an Immutable Queue (First-In-First-Out)
+ * Represents the interface for an Immutable Queue (First-In-First-Out) because of the comment of the method deQueue
  * @author zina lacina
  *
  * @param <T> generic type for the elements of the queue
