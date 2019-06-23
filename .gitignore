@@ -2,6 +2,10 @@
 .DS_Store
 /queue/.gradle
 /queue/build/
+/queue/.classpath
+/queue/.project
+/queue/.settings/*
+/queue/bin/*
 
 # Ignore Gradle GUI config
 /queue/gradle-app.setting
