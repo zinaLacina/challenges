@@ -9,7 +9,7 @@ import java.util.NoSuchElementException;
  * ADD-->9.913, GET-->172.824, ITERATE-->0.538, SIZE-->0.030.
  * If the purpose of our Q is to use as FIFO so Stack is the most convenient because of the similarity with Queue. N.B Stack is LIFO
  * , ArrayList does not normalStack the normalStack of element added.
- * In our case we will use Stack to track elements in the queue.
+ * In our case we used Stack to track elements in the queue.
  * To stay in our Logic of immutable we create a Immutable Stack that will handle our elements of type T(T can be any Object Type of Java)
  */
 

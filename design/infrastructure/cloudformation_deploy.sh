@@ -1,6 +1,6 @@
 #!/bin/sh
 
-BUCKET_NAME=paypayzina
+BUCKET_NAME=paypaychallenge2019
 
 ## Creates S3 bucket
 aws s3 mb s3://$BUCKET_NAME
@@ -18,3 +18,6 @@ aws s3 cp IaC/cicd/codecommit.yaml s3://$BUCKET_NAME/resources/cloudformation/ci
 ### Stream
 aws s3 cp IaC/stream/kinesis.yaml s3://$BUCKET_NAME/resources/cloudformation/stream/kinesis.yaml
 aws s3 cp IaC/stream/emr-spark.yaml s3://$BUCKET_NAME/resources/cloudformation/stream/emr-spark.yaml
+### Securities
+aws s3 cp IaC/stream/emr-spark.yaml s3://$BUCKET_NAME/resources/cloudformation/securities/iam-role.yaml
+
